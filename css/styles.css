@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #e5e5e5;
+    background-color: #6d800000;
     padding: 40px;
 }
 
@@ -16,7 +16,7 @@ body {
 /* Main content */
 
 .main-content {
-    padding: 88px;
+    padding: 40px;
 }
 
 .main-content-title {
@@ -31,15 +31,17 @@ body {
 /* About me */
 
 .my-profession {
+    text-align: center;
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 24px;
     line-height: 17px;
     color: #000;
     margin: 0 0 18px 0;
 }
 
 .my-name {
+    text-align: center;
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
@@ -77,6 +79,10 @@ body {
 }
 
 .projects-container {
+    margin-bottom: 48px;
+}
+
+.summary-container {
     margin-bottom: 48px;
 }
 
@@ -182,14 +188,14 @@ body {
     background: #F6F6FA;
 }
 
-.my-photo {
-    margin-top: 40px;
-}
+/* .my-photo {
+    margin-top: 0px;
+} */
 
 .contacts-container,
 .tech-skills-container,
 .soft-skills-container {
-    margin: 48px 0 0 40px;
+    margin: 40px 0 0 40px;
 }
 
 .sidebar-title {
@@ -215,7 +221,8 @@ body {
     margin: 0;
 }
 
-.contact-number {
+.contact-number,
+.contacts-item.address {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -223,13 +230,17 @@ body {
     color: #161D2A;
 }
 
-.contact-email {
+.contact-email,
+.contact-git-hub,
+.contact-lincedin {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     color: #2979FF;
 }
+
+
 
 /* Skills */
 
